@@ -2,7 +2,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <div className="flex flex-row bg-[#f4f5f7]">
+    <div className="flex flex-col bg-[#f4f5f7] sm:flex-row">
       <svg
         width="100%"
         height="100%"
@@ -129,7 +129,7 @@ const Portfolio = () => {
           />
         </defs>
       </svg>
-      <div className="flex flex-row items-center justify-between">
+      <div className="flex flex-row items-center justify-between ">
         <img
           src="public\guugly-wuugly-logo-10x10-inch-white-1@2x.png"
           alt="guugly-wuugly-logo"

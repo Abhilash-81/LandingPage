@@ -2,16 +2,18 @@ import React from "react";
 
 const Investors = () => {
   return (
-    <div className=" bg-[#f4f5f7] ">
-      <h2 className="text-3xl font-bold text-center mb-8">
+    <div className="bg-[#f4f5f7] p-4">
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-8">
         We're backed by incredible
       </h2>
-      <div className="flex flex-row items-center justify-center mb-8">
-        <span className="text-8xl font-bold text-center bg-[#00FEFE]">
-          mentors{" "}
+      <div className="flex flex-col sm:flex-row items-center justify-center mb-8 space-y-4 sm:space-y-0">
+        <span className="text-4xl sm:text-6xl lg:text-8xl font-bold text-center bg-[#00FEFE] px-2">
+          mentors
         </span>
-        <span className="text-8xl font-bold text-center ">& </span>
-        <span className="text-8xl font-bold text-center bg-[#00FEFE]">
+        <span className="text-4xl sm:text-6xl lg:text-8xl font-bold text-center px-2">
+          &
+        </span>
+        <span className="text-4xl sm:text-6xl lg:text-8xl font-bold text-center bg-[#00FEFE] px-2">
           investors
         </span>
       </div>
