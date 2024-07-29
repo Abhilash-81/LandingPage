@@ -9,11 +9,11 @@ const Page3 = () => {
             Who are we
           </h1>
         </div>
-        <h1 className="m-2 p-2 font-bold text-2xl sm:text-4xl lg:text-6xl leading-5">
+        <h1 className="m-2 p-2 font-bold text-2xl sm:text-4xl lg:text-6xl leading-5 text-center">
           Startup Founder’s Community Platform
         </h1>
       </div>
-      <div className="flex flex-col items-center justify-start space-y-4 m-8 p-8 font-bold text-base sm:text-lg lg:text-xl leading-normal tracking-tight opacity-50 text-center">
+      <div className="flex flex-col items-center justify-start space-y-4 m-8 p-8 font-bold text-base sm:text-lg lg:text-xl leading-normal tracking-tight opacity-50 text-center sm:text-left">
         <h1>
           We are a founder’s community and accelerators, for early-stage
           startups, we are enabling them with practical{" "}
@@ -24,7 +24,7 @@ const Page3 = () => {
         </h1>
         <h1>and angel investors.</h1>
       </div>
-      <div className="m-8 p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5">
+      <div className="m-8 p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         <div className="h-[100px] bg-[#D9D9D94D] rounded-xl border border-black flex flex-col items-center justify-between p-2 w-4/6">
           <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-10">
             10K+
@@ -56,7 +56,7 @@ const Page3 = () => {
           <h6 className="mt-3 text-xs">Founders Joined Wishlist</h6>
         </div>
       </div>
-      <div className="mx-8 px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5">
+      <div className="mx-8 px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         <div className="h-[100px] bg-[#D9D9D94D] rounded-xl border border-black flex flex-col items-center justify-between p-2 w-4/6">
           <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-10">
             10

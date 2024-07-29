@@ -77,7 +77,7 @@ const Page1 = () => {
             </defs>
           </svg>
         </div>
-        <div className="mx-1 px-1 text-center lg:text-left">
+        <div className="mx-1 px-1 text-center lg:text-left lg:w-[30vw] ">
           Join our outcome-driven offline program where startups receive expert
           support and access to <b className="opacity-50">PedalStart's</b>{" "}
           shared resources.

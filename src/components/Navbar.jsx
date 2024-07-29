@@ -11,8 +11,12 @@ const Navbar = () => {
 
   return (
     <nav className="m-2 flex flex-wrap rounded-lg justify-between items-center bg-[#2E2929] text-white">
-      <div className="h-[10vh] w-[15vw]">
-        <img src="public/screenshot-20240523-at-1157-2@2x.png" alt="Logo" />
+      <div className="h-[15vh] w-[20vw]">
+        <img
+          src="public/screenshot-20240523-at-1157-2@2x.png"
+          alt="Logo"
+          className="h-[15vh] w-[20vw]"
+        />
       </div>
       <div className="lg:hidden lg:m-2 p-2">
         <button onClick={toggleMenu} className="text-white">

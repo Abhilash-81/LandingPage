@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ title, description, icon }) => {
+const Card = ({ title, description }) => {
   return (
     <div className="bg-white shadow-md p-6 m-4 w-full sm:w-[380px] sm:h-[330px] lg:h-[250px] lg:w[300px] rounded-xl relative flex flex-col">
       <div className="flex flex-col items-start mb-4">
@@ -13,7 +13,7 @@ const Card = ({ title, description, icon }) => {
         <img
           src="public/24hourssupport-1@2x.png"
           alt="Image"
-          className="object-contain h-[10vw] w-[10vw] lg:h-[3vw] lg:w-[3vw] "
+          className="object-contain h-[6vw] w-[6vw] lg:h-[3vw] lg:w-[3vw] "
         />
       </div>
     </div>
